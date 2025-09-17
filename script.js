@@ -92,7 +92,7 @@ nextBtn.addEventListener('click', () => {
         showQuestion();
         startTimer();
     } else {
-        alert("Quiz finished!");
+        alert(`Quiz finished!`);
     }
 });
 
