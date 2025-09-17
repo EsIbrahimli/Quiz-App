@@ -12,7 +12,7 @@ const questions = [
      {
         question: "JavaScript-də == və === operatorlarının əsas fərqi nədir?",
         answers: ["Tip yoxlaması", "Dəyər yoxlaması", "Həm tip, həm də dəyər yoxlaması", "Heç biri"],
-        correct: 2
+        correct: 0
     },
      {
         question: "Aşağıdakı hansı düzgün massiv yaratmaq sintaksisidir?",
