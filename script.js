@@ -6,18 +6,18 @@ const questions = [
     },
     {
         question: "JavaScript-də hansı açar söz funksiyadan dəyər qaytarmaq üçün istifadə olunur?",
-        answers: ["return", "yield", "get", "set"],
-        correct: 0
+        answers: [ "yield","return", "get", "set"],
+        correct: 1
     },
      {
         question: "JavaScript-də == və === operatorlarının əsas fərqi nədir?",
         answers: ["Tip yoxlaması", "Dəyər yoxlaması", "Həm tip, həm də dəyər yoxlaması", "Heç biri"],
-        correct: 0
+        correct: 2
     },
      {
         question: "Aşağıdakı hansı düzgün massiv yaratmaq sintaksisidir?",
-        answers: ["let arr = [];", "let arr = ();", "let arr = {};", "let arr = <>;"],
-        correct: 0
+        answers: [ "let arr = ();", "let arr = {};","let arr = [];", "let arr = <>;"],
+        correct: 2
     },
      {
         question: "Aşağıdakılardan hansı arrow function düzgün sintaksisdir?",
@@ -26,8 +26,8 @@ const questions = [
     },
      {
         question: "Hansı metod HTML elementini id ilə seçir?",
-        answers: ["getElementById()", "querySelector()", "getElementsByClassName()", "querySelectorAll()"],
-        correct: 0
+        answers: [ "querySelector()", "getElementsByClassName()", "querySelectorAll()","getElementById()"],
+        correct: 3
     }
 ];
 
