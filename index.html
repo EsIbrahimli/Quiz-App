@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div class="quiz-header">
+            <h1>Quiz</h1>
+            <div class="timer">Time: <span id="time">20</span></div>
+        </div>
+
+        <div class="quiz-body">
+            <div id="question">JavaScript-də hansı metod massivə yeni element sondan əlavə etmək üçün istifadə olunur?</div>
+            <div class="quiz-answers">
+                <button class="answer-btn answer1" data-answer="0">push()</button>
+                <button class="answer-btn answer2" data-answer="1">pop()</button>
+                <button class="answer-btn answer3" data-answer="2">shift()</button>
+                <button class="answer-btn answer4" data-answer="3">unshift()</button>
+            </div>
+        </div>
+
+        <div class="quiz-footer">
+            <div class="questions"><span id="question-number">2</span> of <span id="total-questions"></span>  Questions </div>
+            <button id="next-btn">Next</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html> 
